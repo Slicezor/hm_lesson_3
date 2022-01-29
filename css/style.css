@@ -1,0 +1,46 @@
+@import "null.css";
+
+p {
+	color: aqua;
+}
+
+.main-header {
+	color: blueviolet;
+}
+
+#page-header-1 {
+	color: green;
+}
+
+h2#page-header-2 {
+	color: hotpink;
+}
+
+.animal.red {
+	color: red;
+}
+
+p mark {
+	color: springgreen;
+}
+
+.header,
+.footer {
+	color: rgb(179, 184, 121);
+}
+
+[class*="link-"] {
+	color: palegreen;
+}
+
+.pets > li {
+	color: saddlebrown;
+}
+
+.dog ~ li {
+	color: indigo;
+}
+
+.dog + li {
+	color: green;
+}
